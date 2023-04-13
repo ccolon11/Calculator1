@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="panel1" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="52" y="30" width="374" height="240"/>
+    </constraints>
+    <properties>
+      <foreground color="-12538732"/>
+      <minimumSize width="280" height="220"/>
+      <preferredSize width="350" height="350"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c5e33" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font size="36"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="b29dd" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="23"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="true"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <horizontalAlignment value="0"/>
+          <text value="1"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="ef8a6" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="23"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="85c13" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="23"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="e4670" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="4d656" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="d1515" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="86c4b" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="fefbc" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="51920" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="true"/>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="8de03" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="53d16" class="javax.swing.JButton" binding="button11" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="29"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+      <component id="4f136" class="javax.swing.JButton" binding="cButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="29"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="19" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="70166" class="javax.swing.JButton" binding="button13" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="29"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="17" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="66d7d" class="javax.swing.JButton" binding="button14" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="29"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="1db06" class="javax.swing.JButton" binding="button15" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="23"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="7954f" class="javax.swing.JButton" binding="button16" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="1ef82" class="javax.swing.JButton" binding="button17" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="d7434" class="javax.swing.JButton" binding="button18" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="0"/>
+          <foreground color="-9666644"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="b2ad" class="javax.swing.JLabel" binding="jLabel1">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <labelFor value="c5e33"/>
+          <text value="1+"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
